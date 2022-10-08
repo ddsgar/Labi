@@ -1,4 +1,4 @@
-/Подключение библиотек
+//Подключение библиотек
 #include <iostream>
 
 using namespace std;
@@ -6,7 +6,7 @@ using namespace std;
 // Описание функции main - основной программы
 int main()
 {
-	//Объявление переменных  
+//Объявление переменных  
 	int number, preview_number, count;	
 	number = 0;
 	preview_number = 1;
@@ -27,4 +27,5 @@ int main()
 	{
 		cout << i + 1 << " " << arr[i] << endl;
 	}
+	return 0;
 }
